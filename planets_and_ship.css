@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#universe{
+	width: 1360px;
+	height: 623px;
+	background: url(images/planetnew.jpg);
+	background-attachment: fixed;
+	border:solid 1px transparent;
+}
+#earth{
+	width: 294px;
+	height: 294px;
+	position: fixed;
+	left:349px;
+	top:182px;
+	border:solid 1px #7CC6FF;
+	border-radius: 147px;
+	display: none;
+}
+[id^="spaceship"]{
+	width: 75px;
+	height: 20px;
+	display: inline-block;
+	position: fixed;
+}
+[id^="spaceship"] img{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+}
+span{-webkit-transform:scale(1); display:inline-block}
+[id^="spaceship"] .energy{
+	display: inline-block;
+	font-family: Comic Sans Ms;
+	color: #69BDEF;
+	font-size: 12px;
+	opacity: 0.5;
+}
+#spaceship1{
+	display: none;
+}
+#spaceship2{
+	-webkit-transform: rotate(0deg);
+	display: none;
+}
+#spaceship3{
+	display: none;
+}
+#spaceship4{
+	display: none;
+}
+[id^="orbit"]{
+	position: fixed;
+	border:dashed 1px #7CC6FF;
+	opacity: 0.5;
+}
+#orbit1{
+	width: 354px;
+	height: 354px;
+	left:319px;
+	top:152px;
+	border-radius: 177px;
+}
+#orbit2{
+	width: 414px;
+	height: 414px;
+	left:289px;
+	top:122px;
+	border-radius: 207px;
+}
+#orbit3{
+	width: 474px;
+	height: 474px;
+	left:259px;
+	top:92px;
+	border-radius: 237px;
+}
+#orbit4{
+	width: 534px;
+	height: 534px;
+	left:229px;
+	top:62px;
+	border-radius: 267px;
+}
+#commander,#console{
+	width: 320px;
+	height: 290px;
+	border:solid 1px #D1CFCD;
+	position: fixed;
+	left: 1000px;
+	margin: 10px 0px;
+	overflow: auto;
+	opacity: 0.3;
+	font-family: Comic Sans Ms,simhei;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	word-break:break-all;
+}
+#console{
+	top:310px;
+	color: #ffffff;
+	font-size: 13px;
+}
+.tittle{
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+.orbit{
+	color:#ffffff;
+	display: inline-block;
+	font-family: simhei;
+	font-weight:bolder; 
+}
+.action{
+	font-family: Comic Sans Ms,simhei;
+	width: 60px;
+}
+[class^="orbitbar"],.powersystem,.energysystem{
+	margin: 14px 0px;
+	border:solid 1px transparent;
+	font-family: Comic Sans Ms,simhei;
+	color: #ffffff;
+}
+[name="powersystem"],[name="energysystem"]{
+	margin-right: 7px;
+	margin-left: 6px;
+}

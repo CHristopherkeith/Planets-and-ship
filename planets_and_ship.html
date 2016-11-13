@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Planets and ship</title>
+	<link rel="stylesheet" type="text/css" href="planets_and_ship.css">
+</head>
+<body>
+<div id="universe">
+
+	<div id="spaceship1" style="left:456px;top:142px;-webkit-transform:rotate(0deg)">
+		<img src="images/spaceship.png" alt="spaceship"><!--
+	 --><div class="energy">100</div>
+	</div>
+
+	<div id="spaceship2" style="left:456px;top:112px;-webkit-transform:rotate(0deg)">
+		<img src="images/spaceship.png" alt="spaceship"><!--
+	 --><div class="energy">100</div>
+	</div>
+
+	<div id="spaceship3" style="left:456px;top:82px;-webkit-transform:rotate(0deg)">
+		<img src="images/spaceship.png" alt="spaceship"><!--
+	 --><div class="energy">100</div>
+	</div>
+
+	<div id="spaceship4" style="left:456px;top:52px;-webkit-transform:rotate(0deg)">
+		<img src="images/spaceship.png" alt="spaceship"><!--
+	 --><div class="energy">100</div>
+	</div>
+
+	<div id="orbit4">
+		<div id="orbit3">
+			<div id="orbit2">
+				<div id="orbit1">
+					<div id="earth"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="commander">
+		<div class="tittle">COMMANDER</div>
+
+		<div class="orbitbar1">
+			<div class="orbit">轨道一</div>
+			<input class="action" type="submit" value="creation">
+			<input class="action" type="submit" value="launch">
+			<input class="action" type="submit" value="stop">
+		</div>
+
+		<div class="orbitbar2">
+			<div class="orbit">轨道二</div>
+			<input class="action" type="submit" value="creation">
+			<input class="action" type="submit" value="launch">
+			<input class="action" type="submit" value="stop">
+		</div>
+
+		<div class="orbitbar3">
+			<div class="orbit">轨道三</div>
+			<input class="action" type="submit" value="creation">
+			<input class="action" type="submit" value="launch">
+			<input class="action" type="submit" value="stop">
+		</div>
+
+		<div class="orbitbar4">
+			<div class="orbit">轨道四</div>
+			<input class="action" type="submit" value="creation">
+			<input class="action" type="submit" value="launch">
+			<input class="action" type="submit" value="stop">
+		</div>
+
+		<div class="powersystem">
+			<div class="orbit">动力档</div>
+			<input name="powersystem" type="radio" value="forward" title="速率:10°/s,能耗:5.0%/s">前进
+			<input name="powersystem" type="radio" value="gallop"  title="速率:25°/s,能耗:10.0%/s">奔腾
+			<input name="powersystem" type="radio" value="surpass" title="速率:50°/s,能耗:15.0%/s">超越
+		</div>
+
+		<div class="energysystem">
+			<div class="orbit">能源档</div>
+			<input name="energysystem" type="radio" value="energizer" title="补充速率:5.0%/s">劲量
+			<input name="energysystem" type="radio" value="optical"   title="补充速率:10.0%/s">光能
+			<input name="energysystem" type="radio" value="perpetual" title="补充速率:15.0%/s">永久
+		</div>
+
+	</div>
+
+	<div id="console">
+		<div class="tittle">CONSOLE</div>
+		<div id="position"></div>
+	</div>
+
+</div>
+
+</body>
+<script type="text/javascript" src="planets_and_ship.js"></script>
+</html>
